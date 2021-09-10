@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 import sys
 
 res = {i:0 for i in range(24)}
