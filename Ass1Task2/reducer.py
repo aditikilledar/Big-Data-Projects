@@ -56,21 +56,3 @@ else:
 	print(state)
 	print(f'{city} {1}')
 	print(f'{state} 1')
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
