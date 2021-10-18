@@ -23,10 +23,11 @@ for line in sys.stdin:
 			print(cur,out,sep=',')
 
 			# writes to file v (inital page ranks)
-			f.write(f"{cur},1")
+			f.write(f"{cur},1\n")
 			cur=nex
 			out=[]
 			out.append(dest)
 
 print(cur,out,sep=',')
+f.write(f"{cur},1\n")
 f.close()
