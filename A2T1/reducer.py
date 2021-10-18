@@ -2,6 +2,9 @@
 import sys
 cur = None
 out = []
+
+f = open("v", "a+")
+
 for line in sys.stdin:
 	line = line.strip().split('\t')
 	nex = int(line[0])
@@ -19,4 +22,6 @@ for line in sys.stdin:
 			cur=nex
 			out=[]
 			out.append(dest)
+			
 print(cur,out,sep=',')
+f.close()
