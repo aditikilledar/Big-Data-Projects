@@ -3,7 +3,8 @@ import sys
 import os
 cur=None
 rank_p=0.15
-v1=open(f'{os.getcwd()}/v1','w')
+v1_path=sys.argv[1]
+v1=open(v1_path,'w')
 
 for line in sys.stdin:
 	# RANK = 0.15 + 0.85(Sum(contribution(q) for q in outgoing list)) 
@@ -22,7 +23,7 @@ for line in sys.stdin:
 		rank_p += 0.85*cont_pq
 	else:
 		print(f'{cur},{rank_p:.2f}')
-		v1.write(f'{cur},{rank_p:.2f}')
+		v1.write(f'{cur},{rank_p:.2f}\n')
 		rank_p=0.15
 		cur=q
 		
