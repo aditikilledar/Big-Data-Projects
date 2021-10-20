@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 import sys
 import os
@@ -38,5 +37,12 @@ for line in sys.stdin:
 print(']')
 #f.write('in file')
 #print('writing into file now')
+
+
+
+
+
+
+
 f.write(f"{cur},1\n")
 f.close()
