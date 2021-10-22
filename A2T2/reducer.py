@@ -11,7 +11,7 @@ for line in sys.stdin:
 	# input - q,p,cont(p,q)
 	# output - print p,rank(p) written back to v1
 	
-	line=line.strip().split(',')
+	line=line.strip().split('$')
 	
 	q=int(line[0])
 	p=int(line[1])
@@ -30,7 +30,7 @@ for line in sys.stdin:
 print(f'{cur},{rank_q:.2f}')
 v1.write(f'{cur},{rank_q:.2f}')
 v1.close()
-	
+
 	
 	
 	
