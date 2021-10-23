@@ -13,7 +13,7 @@ for line in sys.stdin:
 	
 	#  yayyy, it works!
 	#  what fixed it was, chnaging the delimiter from "," to "$"
-	line=line.strip().split('|')
+	line=line.strip().split('$')
 	
 	q=int(line[0])
 	p=int(line[1])
