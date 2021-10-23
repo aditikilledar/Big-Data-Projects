@@ -65,12 +65,12 @@ for line in sys.stdin:
 		# contribution is rank*similarity
 		cont = p_rank*similarity
 		
-		print(f'{q}|{p}|{cont}')
+		print(f'{q}${p}${cont}')
 
 # handles case of node w no incoming
 for node in v.keys():
 	if node not in visited:
-		print(f'{node}|{node}|0')
+		print(f'{node}${node}$0')
 		
 		
 		
