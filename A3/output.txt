@@ -1,0 +1,118 @@
++---------+-----------------------+
+|    Rcity|avg(AverageTemperature)|
++---------+-----------------------+
+|    Mainz|       8.12306429537242|
+|Magdeburg|      8.789375732270624|
+|  Hanover|       9.45073641644603|
+|Brunswick|      8.598633800331555|
+|  Mülheim|      8.456237828449868|
++---------+-----------------------+
+only showing top 5 rows
+
++----------+------------------+--------------+-------+------------------+
+|        dt|AverageTemperature|          City|Country|           AVGTEMP|
++----------+------------------+--------------+-------+------------------+
+|1898-08-01|            17.879|        Bremen|Germany| 7.855243725609034|
+|1946-08-01|            16.427|    Oberhausen|Germany| 8.282121787468592|
+|1766-05-01|            13.691|      Ratisbon|Germany| 7.632967317708178|
+|1755-08-01|            13.839|      Freiburg|Germany| 7.133237801787511|
+|1845-08-01|            14.559|         Halle|Germany| 7.470653154709608|
+|1800-07-01|             17.27|         Essen|Germany| 8.992480759007426|
+|1823-08-01|            17.643|        Kassel|Germany|7.3352814363148395|
+|2009-08-01|            19.358|       Rostock|Germany| 8.399772207288049|
+|1825-09-01|            15.196|     Oldenburg|Germany| 8.481823149587022|
+|1876-07-01|            18.875|         Fürth|Germany| 8.316826344551778|
+|1754-05-01|            13.674|Recklinghausen|Germany| 8.708529038030294|
+|1929-10-01|             9.976|     Göttingen|Germany| 7.900568737462163|
+|2004-04-01|             9.556|        Kassel|Germany|7.3352814363148395|
+|1860-06-01|             15.74|     Heilbronn|Germany| 7.889981332171407|
+|1814-08-01|            16.332|          Hamm|Germany| 9.087411382176642|
+|1838-08-01|            15.081|     Wiesbaden|Germany| 8.850745838691187|
+|1970-06-01|            17.469|     Wolfsburg|Germany| 8.794792882885252|
+|1923-09-01|            14.028|      Würzburg|Germany| 9.356147884588006|
+|1991-09-01|            14.966|       Leipzig|Germany|7.4450496444544685|
+|1852-09-01|            13.279|       Krefeld|Germany| 9.120443717336023|
++----------+------------------+--------------+-------+------------------+
+only showing top 20 rows
+
+Aachen 	 79
+Augsburg 	 88
+Bergisch Gladbach 	 83
+Berlin 	 76
+Bielefeld 	 74
+Bochum 	 80
+Bonn 	 76
+Bottrop 	 85
+Bremen 	 74
+Bremerhaven 	 78
+Brunswick 	 72
+Chemnitz 	 72
+Cologne 	 88
+Cottbus 	 73
+Darmstadt 	 80
+Dortmund 	 80
+Dresden 	 84
+Duisburg 	 72
+Düsseldorf 	 72
+Erfurt 	 66
+Erlangen 	 91
+Essen 	 72
+Frankfurt 	 74
+Freiburg 	 80
+Fürth 	 70
+Gelsenkirchen 	 74
+Gera 	 73
+Göttingen 	 75
+Hagen 	 73
+Halle 	 89
+Hamburg 	 72
+Hamm 	 76
+Hanover 	 63
+Heidelberg 	 71
+Heilbronn 	 75
+Herne 	 79
+Hildesheim 	 77
+Ingolstadt 	 78
+Karlsruhe 	 54
+Kassel 	 76
+Kiel 	 76
+Koblenz 	 79
+Krefeld 	 77
+Leipzig 	 72
+Leverkusen 	 70
+Ludwigshafen 	 76
+Lübeck 	 84
+Magdeburg 	 86
+Mainz 	 81
+Mannheim 	 86
+Moers 	 74
+Munich 	 76
+Mönchengladbach 	 76
+Mülheim 	 74
+Münster 	 77
+Neuss 	 87
+Nuremberg 	 68
+Oberhausen 	 74
+Offenbach 	 77
+Oldenburg 	 71
+Osnabrück 	 94
+Paderborn 	 70
+Pforzheim 	 73
+Potsdam 	 80
+Ratisbon 	 75
+Recklinghausen 	 69
+Remscheid 	 77
+Reutlingen 	 84
+Rostock 	 77
+Saarbrücken 	 76
+Salzgitter 	 64
+Siegen 	 95
+Solingen 	 78
+Stuttgart 	 75
+Trier 	 71
+Ulm 	 74
+Wiesbaden 	 92
+Witten 	 74
+Wolfsburg 	 70
+Wuppertal 	 73
+Würzburg 	 71
