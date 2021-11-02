@@ -5,6 +5,9 @@ import sys
 citypath=sys.argv[1]
 globpath=sys.argv[2]
 
+sc=SparkContext('local',"task2")
+sqlContext = SQLContext(sc)
+
 citydf = sqlContext.read.csv(citypath, header=True)
 citydf = df.drop('AverageTemperatureUncertainty','Latitude','Longitude')
 
