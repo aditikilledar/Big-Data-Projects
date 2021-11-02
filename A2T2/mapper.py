@@ -72,6 +72,4 @@ for node in v.keys():
 	if node not in visited:
 		print(f'{node}${node}$0')
 		
-		
-		
-		
+# hadoops, I did it again
