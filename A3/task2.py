@@ -12,7 +12,8 @@ globpath=sys.argv[2]
 citydf = sqlContext.read.csv(citypath, header=True)
 globdf = sqlContext.read.csv(globpath, header=True)
 
-globdf = globdf.select(col('dt'),col('LandAverageTemperature'))
+#globdf = globdf.select(col('dt'),col('LandAverageTemperature'))
+globdf = globdf.drop('LandAverageTemperatureUncertainty','LandMaxTemperature','LandMaxTemperatureUncertainty','LandMinTemperature','LandMinTemperatureUncertainty','LandAndOceanAverageTemperature','LandAndOceanAverageTemperatureUncertainty')
 
 citydf =  citydf.drop('AverageTemperatureUncertainty','Latitude','Longitude')
 
@@ -29,7 +30,8 @@ cityref=cityref.drop('globdt')
 cityref=cityref.withColumnRenamed("max(AverageTemperature)","MAXTEMP")
 #cityref.show(5)
 cityref=cityref.filter(cityref.LandAverageTemperature < cityref.MAXTEMP)
-
+cityref=cityref.orderBy('dt','Country')
+#cityref.show(20)
 rdd1 = cityref.rdd
 rdd1=rdd1.map(lambda x: (x.Country,1))
 rdd2=rdd1.reduceByKey(lambda a,b: a+b)
